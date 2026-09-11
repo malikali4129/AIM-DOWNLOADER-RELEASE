@@ -1,27 +1,30 @@
-<div align="center">
+# AIM Downloader
 
-# AIM-DOWNLOADER Releases & Downloads
+Official downloads and product website for **AIM Downloader**, a Windows x64 video, playlist, and audio downloader by Ali Imran Malik.
 
-Official binary releases, setup installers, and update distribution channel for **AIM-DOWNLOADER**.
+[Download the latest release](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases/latest) · [Release history](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases) · [Report an issue](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/issues)
 
-Developed by **Ali Imran Malik** ([malikali4129@gmail.com](mailto:malikali4129@gmail.com))
+## Downloads
 
----
+- **Windows installer:** the `AIM-DOWNLOADER-<version>-win-x64-setup.exe` asset in the release.
+- **Portable edition:** the `AIM-DOWNLOADER-<version>-win-x64-portable.zip` asset. Extract the full archive to a writable folder before running the app.
+- **Checksums:** `SHA256SUMS.txt` accompanies the release assets.
 
-[![Latest Release](https://img.shields.io/github/v/release/malikali4129/aim-releases?color=ff4081&label=Latest%20Release)](https://github.com/malikali4129/aim-releases/releases/latest)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(x64)-blue.svg)](https://github.com/malikali4129/aim-releases/releases/latest)
+Windows 10 / 11 (x64). First-run setup needs internet access. The release bundles .NET; no separate Python installation is required. Download only media you have permission to save.
 
-</div>
+## Website
 
-## 📥 Downloads
+The complete static website lives directly at this repository's root. It includes Home, Download, Getting started, FAQ & support, and Releases pages. The app source remains private and is not included here.
 
-Go to the [**Releases Tab**](https://github.com/malikali4129/aim-releases/releases/latest) to download the latest version:
+The intended website address is `https://aimdownloader.pages.dev/`. Cloudflare has **not** been connected or deployed as part of this website work. Follow [SETUP.md](SETUP.md) when ready to connect it.
 
-- **`AIM-DOWNLOADER-Setup.exe`**: Recommended Windows installer with desktop shortcuts, file associations, and start menu integration.
-- **`AIM-DOWNLOADER-win-x64-portable.zip`**: Portable version that runs anywhere without installation.
+For local preview, run `python -m http.server 4173 --bind 127.0.0.1` from this folder and open `http://127.0.0.1:4173/`.
 
-## 🔄 Automatic Updates
-AIM-DOWNLOADER checks this repository for new releases on launch. When an update is published, the app notifies you and can download & apply the new update automatically.
+See [SETUP.md](SETUP.md) for editing, validation, and future Cloudflare settings. Website downloads resolve public GitHub release assets at page load. New software releases do not require a website rebuild.
 
-## 💬 Support & Feedback
-- Email: [malikali4129@gmail.com](mailto:malikali4129@gmail.com)
+## Support
+
+- [Public GitHub issues](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/issues)
+- [business.aliimranmalik@gmail.com](mailto:business.aliimranmalik@gmail.com)
+
+The application's release tags, published binaries, and update endpoint remain unchanged.

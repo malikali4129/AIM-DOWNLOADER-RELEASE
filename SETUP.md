@@ -1,12 +1,12 @@
 # Website setup and maintenance
 
-The website is at the root of this public repository. It is plain static HTML, CSS, and JavaScript. It does not require a database, application server, or production dependencies. No Cloudflare connection or deployment has been performed.
+The website is at the root of this public repository. It is plain static HTML, CSS, and JavaScript. It does not require a database, application server, or production dependencies. Deployment status is not tracked in this document; confirm the active deployment in the hosting dashboard.
 
 ## Preview locally
 
 From the repository root, run `python -m http.server 4173 --bind 127.0.0.1`, then open `http://127.0.0.1:4173/`. Use an HTTP server rather than opening HTML with a file URL because routes and JavaScript modules use root-relative paths. Stop the server with Ctrl+C.
 
-## Connect Cloudflare later
+## Cloudflare configuration
 
 1. Open Cloudflare Workers & Pages, select Pages, and import the existing GitHub repository `malikali4129/AIM-DOWNLOADER-RELEASE`. If an `aimdownloader` Pages project already exists, inspect its settings and reuse it rather than creating another project.
 2. Use `main` as the production branch, framework preset **None**, build command `exit 0`, build output directory `.`, and leave the root directory unset (repository root).
@@ -38,3 +38,23 @@ Support goes to public GitHub issues and `business.aliimranmalik@gmail.com`. The
 Run `node --test tests/releases.test.mjs` for release parsing and failure cases. Browser checks in `tests/browser-checks.cjs` require Playwright and its Chromium browser in the development environment, plus the local server. Run `node tests/browser-checks.cjs`; optionally set `SITE_URL` to another preview URL. Browser screenshots are written to ignored `tests/.artifacts/`. No test dependency is required on Cloudflare.
 
 Only stage and commit website files after reviewing `git diff`. Existing release tags and the private application's release workflow must stay unchanged.
+
+## Repository presentation
+
+Set these in GitHub's About panel when publishing the repository updates:
+
+- Description: Official Windows downloads for AIM Downloader. Videos, playlists, audio, and a portable edition.
+- Website: use the confirmed live production URL; keep it consistent with the site's canonical URLs.
+- Topics: `windows`, `video-downloader`, `playlist-downloader`, `audio-downloader`, `download-manager`, `portable`, `freeware`.
+
+The README uses the existing app icon and screenshot. Keep them current when the app interface changes.
+
+Issue forms live in `.github/ISSUE_TEMPLATE`. Security and support guidance live in `SECURITY.md` and `SUPPORT.md`. The license for the app is in `APP-LICENSE.txt`; `LICENSE.txt` covers the original website materials separately.
+
+Use `.github/RELEASE_TEMPLATE.md` as a writing guide for user-facing release notes. The private application's workflow supplies release descriptions automatically; this public template does not override that workflow.
+
+## Release freshness
+
+The website fetches public release information on page load. No persistent application cache is used. Newly published stable releases can appear on the next page load once GitHub's API exposes them. Pushing source commits alone does not publish a release.
+
+On a failed request or rate limit, the direct GitHub release-page fallback remains available. Do not put a private GitHub token into browser code to bypass rate limits.

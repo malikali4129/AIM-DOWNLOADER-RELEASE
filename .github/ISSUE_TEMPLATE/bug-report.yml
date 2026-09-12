@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a problem with the app, downloads, or website.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues first. Reports are public: remove passwords, tokens, private links, and personal information from screenshots and logs.
+        For security vulnerabilities, email business.aliimranmalik@gmail.com instead.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where is the problem?
+      options:
+        - Windows application
+        - Installer or portable package
+        - Website or download links
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: AIM version
+      description: Enter the app version, or N/A for website-only reports.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows version and edition
+      description: Include installer or portable edition. For website issues, include your browser and operating system.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. The problem occurs when...
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+      description: Explain what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Error message and screenshots
+      description: Paste the error or attach a screenshot after removing sensitive information. For a download issue, the source website name may help; do not share private links.

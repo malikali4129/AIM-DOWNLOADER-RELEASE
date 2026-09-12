@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download the latest version
+    url: https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases/latest
+    about: Official installer, portable package, and checksums.
+  - name: Private security report
+    url: mailto:business.aliimranmalik@gmail.com
+    about: Report suspected vulnerabilities privately instead of opening a public issue.

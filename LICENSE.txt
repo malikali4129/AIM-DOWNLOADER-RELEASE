@@ -1,0 +1,25 @@
+AIM Downloader Website and Repository Notice
+Copyright (C) 2026 Ali Imran Malik. All rights reserved.
+
+This notice applies to original website code, documentation, images, and
+branding in this repository owned by Ali Imran Malik.
+
+You may browse the official website and make the copies necessary for normal
+browser operation. No general permission is granted to reuse, modify,
+redistribute, rebrand, or sell the original website materials without prior
+written permission. Hosting providers selected by the owner may host and
+deliver these materials under the applicable hosting agreement.
+
+This notice does not restrict applicable statutory rights, rights already
+granted under hosting-platform terms (including GitHub's public-repository
+viewing and forking rights), or rights under earlier or third-party licenses.
+
+The desktop application is separately covered by APP-LICENSE.txt. Terms
+supplied with a particular release govern that release; this notice does not
+retroactively replace terms of older releases or third-party components.
+
+To the extent permitted by law, the website materials are provided AS IS,
+without warranties. The owner is not liable for damages arising from their
+use to the extent that liability may lawfully be excluded.
+
+Permission requests: business.aliimranmalik@gmail.com

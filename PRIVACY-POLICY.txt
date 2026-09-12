@@ -1,0 +1,78 @@
+AIM Downloader Privacy Policy
+Last updated: 12 September 2026
+Website: https://aimdownloader.pages.dev
+
+Who operates AIM Downloader
+
+AIM Downloader and its official product website are operated by Ali Imran Malik. This policy covers the Windows application, this website, and support communications. Privacy requests can be sent to business.aliimranmalik@gmail.com.
+
+AIM Downloader does not require an account. The application code does not include advertising, behavioral tracking, or automatic analytics and crash-report uploads to the developer. Media analysis and downloads run on your device, while the network services described below receive the requests needed to provide those features.
+
+Information stored on your device
+
+The app stores settings, selected download folders, queued media links and metadata, job status and error details, completed-download identifiers and file paths, and tool versions and update information locally. It also creates downloaded media, temporary or partial downloads, tool caches, and recovery or database backup files.
+
+Installed app data is normally in %LocalAppData%\AIM-DOWNLOADER. Portable app data is normally in the data folder beside the executable. A shared tool cache may be stored in %LocalAppData%\AIM-DOWNLOADER-TOOLS-CACHE. Media and temporary download files are stored in or beneath your chosen download folder.
+
+The app does not automatically send your queue, download history, downloaded files, or local database to the developer. Local files may also be affected by backup, synchronization, security, or operating-system services you use.
+
+Clipboard access
+
+Pasting a link reads clipboard text at your request. Optional clipboard monitoring is off by default; when enabled, it reads clipboard text to detect supported links while the app is running. You can disable it in the app.
+
+Detected links can be analyzed or queued according to your settings, including automatic downloading if enabled. Processing a link contacts the relevant website. Clipboard monitoring is not intended to collect unrelated clipboard text for the developer.
+
+Network requests and third parties
+
+When you analyze or download a link, yt-dlp and related tools contact the media website and its delivery providers. Those services receive the requested URL and ordinary connection information such as your IP address and request headers. Their own privacy policies and access rules apply.
+
+Application update checks contact GitHub for release information. Tool setup, repair, and updates contact GitHub and tool publishers such as Gyan.dev. These providers receive ordinary network request information. A request can occur without you opening a browser.
+
+The website is hosted through Cloudflare. Cloudflare processes connection and request information, such as IP addresses, requested pages, timestamps, and browser information, to deliver and protect the site. Hosting services may make operational or aggregate traffic information available to the operator.
+
+The website requests public release information from GitHub directly from your browser. Download links lead to GitHub or another clearly identified distribution service. GitHub, Microsoft Store, and any other service you choose to visit process data under their own policies.
+
+Website storage and cookies
+
+The website source does not set advertising cookies or use browser local storage for profiles or download history. The website does not provide accounts or a media-upload form. It does not receive the media links you enter into the Windows app.
+
+Cloudflare Web Analytics is currently disabled. No optional analytics or advertising tracker is configured in the reviewed website source.
+
+Infrastructure providers may process logs and use security-related technologies under their own policies and configuration. External services may set their own cookies when you visit them. See the Cookie and Storage Notice for more detail.
+
+Support communications
+
+If you contact support, the operator receives your email address or GitHub username, the message, and any attachments or diagnostic information you choose to send. This information is used to answer questions, investigate problems, maintain the software, and handle privacy or security requests.
+
+GitHub issues are public. Do not post passwords, access tokens, private media links, or personal information in issues or screenshots. Email and issue-hosting providers process communications under their own terms.
+
+Purposes, sharing, and retention
+
+Information is used to provide requested features, deliver and secure the website, resolve support requests, and meet applicable legal obligations. The operator does not sell personal information or use it for targeted advertising.
+
+Where a legal basis is required, requested services are processed as necessary to provide them; routine security, maintenance, and support rely on legitimate interests where permitted; legal requirements and consent apply where relevant. Enabling an optional feature is not blanket consent to unrelated uses.
+
+Local app records remain until you remove them. Removing a queue entry does not necessarily remove completed files or duplicate history, and uninstalling can leave app data and media behind. Support records are retained for as long as reasonably needed to resolve and follow up on the request or meet legal obligations. Service-provider logs and backups follow the applicable provider policies; no fixed provider retention period is promised here.
+
+Information may be disclosed to providers needed for hosting or support, where legally required, or to protect rights and security as permitted by law. Third-party services may process information in countries outside your own. Their policies explain their processing and safeguards.
+
+Your controls and privacy rights
+
+You can disable clipboard monitoring, choose which links to process, and remove local files. To clear local app records completely, close the app and remove its data folder after preserving anything you need. This resets settings and history and may require tool setup again. Downloaded media, partial files, and separate caches may need to be removed separately.
+
+For information held by the operator, contact business.aliimranmalik@gmail.com to request access, correction, or deletion, or to raise an objection or other applicable privacy right. Depending on your location, rights may also include restriction, portability, withdrawal of consent, and a complaint to a privacy regulator. Rights are subject to applicable law; reasonable identity verification may be necessary.
+
+The developer cannot remotely inspect or delete data stored only on your device. For data held independently by GitHub, Cloudflare, Microsoft, media websites, or other providers, use their privacy controls and request channels.
+
+Children, security, and policy changes
+
+The app and website are not directed specifically at children. If you believe a child has submitted personal information to support, contact the operator so it can be reviewed and handled under applicable law.
+
+Reasonable precautions are used in handling support information, but no device, storage system, or network transmission can be guaranteed secure. Avoid sending sensitive information that is not needed for support.
+
+This policy may change as features or services change. The updated date identifies the current version. Material changes will be communicated as required by applicable law.
+
+Provider policies:
+Cloudflare: https://www.cloudflare.com/privacypolicy/
+GitHub: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+Microsoft: https://privacy.microsoft.com/privacystatement

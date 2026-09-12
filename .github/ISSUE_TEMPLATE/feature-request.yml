@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest an improvement to AIM Downloader or its website.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: Search existing requests first. Describe the problem you want solved; requests do not guarantee implementation.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe the task and what makes it difficult today.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested improvement
+      description: Explain how the feature would help.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or examples
+      description: Optional workarounds, examples, or screenshots.

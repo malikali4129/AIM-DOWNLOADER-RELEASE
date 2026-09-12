@@ -1,30 +1,96 @@
-# AIM Downloader
+<p align="center">
+  <img src="assets/brand-icon.png" alt="AIM Downloader logo" width="112" />
+</p>
 
-Official downloads and product website for **AIM Downloader**, a Windows x64 video, playlist, and audio downloader by Ali Imran Malik.
+<h1 align="center">AIM Downloader</h1>
 
-[Download the latest release](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases/latest) · [Release history](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases) · [Report an issue](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/issues)
+<p align="center">
+  <strong>Your videos. Your playlists. Ready for offline.</strong><br />
+  Download public videos, playlists, and audio with a Windows desktop app.
+</p>
 
-## Downloads
+<p align="center">
+  <a href="https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases/latest"><img src="https://img.shields.io/github/v/release/malikali4129/AIM-DOWNLOADER-RELEASE?style=flat-square&amp;color=ec4899&amp;label=latest%20release" alt="Latest release" /></a>
+  <img src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D4?style=flat-square" alt="Windows 10 and 11 x64" />
+  <a href="https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases"><img src="https://img.shields.io/github/downloads/malikali4129/AIM-DOWNLOADER-RELEASE/total?style=flat-square&amp;color=8b5cf6" alt="GitHub release downloads" /></a>
+  <img src="https://img.shields.io/badge/license-Proprietary%20Freeware-64748b?style=flat-square" alt="Proprietary freeware" />
+</p>
 
-- **Windows installer:** the `AIM-DOWNLOADER-<version>-win-x64-setup.exe` asset in the release.
-- **Portable edition:** the `AIM-DOWNLOADER-<version>-win-x64-portable.zip` asset. Extract the full archive to a writable folder before running the app.
-- **Checksums:** `SHA256SUMS.txt` accompanies the release assets.
+<p align="center">
+  <a href="https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases/latest"><strong>Download for Windows</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases">Release notes</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/issues">Get support</a>
+</p>
 
-Windows 10 / 11 (x64). First-run setup needs internet access. The release bundles .NET; no separate Python installation is required. Download only media you have permission to save.
+<p align="center">
+  <img src="assets/app-screenshot.jpg" alt="AIM Downloader desktop application showing its download interface" width="100%" />
+</p>
 
-## Website
+## Choose your download
 
-The complete static website lives directly at this repository's root. It includes Home, Download, Getting started, FAQ & support, and Releases pages. The app source remains private and is not included here.
+Get both editions from the **[latest release](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases/latest)**. Expand **Assets** on the release page if the files are collapsed.
 
-The intended website address is `https://aimdownloader.pages.dev/`. Cloudflare has **not** been connected or deployed as part of this website work. Follow [SETUP.md](SETUP.md) when ready to connect it.
+| Edition | File to choose | Getting started |
+| --- | --- | --- |
+| **Installer** | `AIM-DOWNLOADER-<version>-win-x64-setup.exe` | Run setup for a per-user installation. |
+| **Portable** | `AIM-DOWNLOADER-<version>-win-x64-portable.zip` | Extract the entire ZIP into a writable folder, then run `AIM-DOWNLOADER.exe`. |
+| **Checksums** | `SHA256SUMS.txt` | Compare SHA-256 hashes to verify your downloaded files. |
 
-For local preview, run `python -m http.server 4173 --bind 127.0.0.1` from this folder and open `http://127.0.0.1:4173/`.
+**Requirements:** Windows 10 or 11, x64, a writable download folder, and an internet connection for initial tool setup. No separate .NET or Python installation is required.
 
-See [SETUP.md](SETUP.md) for editing, validation, and future Cloudflare settings. Website downloads resolve public GitHub release assets at page load. New software releases do not require a website rebuild.
+> Choose the installer or portable asset. GitHub's automatic **Source code (zip)** and **Source code (tar.gz)** downloads contain this website repository, not the Windows application.
 
-## Support
+## Made for your download queue
 
-- [Public GitHub issues](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/issues)
-- [business.aliimranmalik@gmail.com](mailto:business.aliimranmalik@gmail.com)
+| Feature | What you can do |
+| --- | --- |
+| **Videos and playlists** | Download individual videos or select the playlist entries you want. |
+| **Batch input** | Paste multiple links or import a text file. |
+| **Quality and audio options** | Choose video quality, extract original audio, or convert to MP3. Compatible MP4 depends on source formats. |
+| **Queue controls** | Run up to three jobs at once, with pause, resume, retry, and cancel controls. |
+| **Duplicate handling** | Skip known duplicates, keep both with numbered filenames, or replace completed files. |
+| **Saved progress** | Keep your queue and settings between sessions; interrupted jobs recover paused. |
+| **Tool management** | Set up required tools automatically, with update, repair, and rollback options. |
 
-The application's release tags, published binaries, and update endpoint remain unchanged.
+Pause and resume behavior depends on the source website. Pausing is unavailable during merging or conversion.
+
+## Your first download
+
+1. **Open AIM Downloader.** Complete the welcome steps, choose a download folder, and let tool setup finish.
+2. **Paste a public link.** Review the video or playlist entries and select the items you want.
+3. **Choose quality and queue it.** Pick your preferred option and add the selected items to the download queue.
+
+Public-link support depends on the source website and upstream extractors. Private and sign-in-required content is outside the current scope. Download only media you have permission to save.
+
+## Updates and help
+
+Start with the [support guide](SUPPORT.md), [report a bug or request a feature](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/issues/new/choose), or [report a security concern privately](SECURITY.md).
+
+Find changes and previous versions in **[Releases](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/releases)**.
+
+For a bug report, include your AIM version, Windows version, steps to reproduce the issue, and the error message. Leave out passwords and private links.
+
+- **Bug reports and feature requests:** [GitHub Issues](https://github.com/malikali4129/AIM-DOWNLOADER-RELEASE/issues)
+- **Email:** [business.aliimranmalik@gmail.com](mailto:business.aliimranmalik@gmail.com)
+
+## License
+
+AIM Downloader is **proprietary freeware** by **Ali Imran Malik**. Official releases are free to download and use for personal or internal business use. Redistribution, modification, rebranding, and resale of the original application require written permission, subject to applicable law and existing rights.
+
+Read the [application license](APP-LICENSE.txt) and the separate [website and repository terms](LICENSE.txt). Third-party components retain their own licenses and permissions. Terms supplied with a particular release govern that release; these files do not retroactively change earlier grants.
+
+## About this repository
+
+This is the official public home for **AIM Downloader releases, its product website, and user support**. The desktop application's source code is maintained separately in a private repository.
+
+The website discovers downloads from this repository's public GitHub releases. Website setup and maintenance instructions are in [SETUP.md](SETUP.md).
+
+---
+
+<p align="center">Made by <strong>Ali Imran Malik</strong> &nbsp;&middot;&nbsp; AIM Downloader</p>
+
+## Website legal pages
+
+The static website includes Privacy (`/privacy/`), Terms (`/terms/`), the App License (`/license/`), Cookies (`/cookies/`), and Third-party Notices (`/legal/`). They are linked in every page footer. See [Microsoft Store submission notes](MICROSOFT-STORE.md) before using the deployed URLs in Partner Center.
